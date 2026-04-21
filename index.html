@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Sidebar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <button class="menu-toggle" id="menuToggle">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <img src="./css/setting 1.png" alt="Logo" class="logo">
+        <h2 class="sidebar-title">Dashboard <span class="version">v.01</span></h2>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-item">
+          <img src="./css/key-square.png" alt="icon">
+          <span>Dashboard</span>
+        </div>
+        <div class="menu-item">
+          <img src="./css/3d-square 1.png" alt="icon">
+          <span>Product</span>
+          <span class="arrow">></span>
+        </div>
+        <div class="menu-item active">
+          <img src="./css/user-square.png" alt="icon">
+          <span>Customers</span>
+          <span class="arrow">></span>
+        </div>
+        <div class="menu-item">
+          <img src="./css/wallet-money 2.png" alt="icon">
+          <span>Income</span>
+          <span class="arrow">></span>
+        </div>
+        <div class="menu-item">
+          <img src="./css/discount-shape 1.png" alt="icon">
+          <span>Promote</span>
+          <span class="arrow">></span>
+        </div>
+        <div class="menu-item">
+          <img src="./css/message-question 1.png" alt="icon">
+          <span>Help</span>
+          <span class="arrow">></span>
+        </div>
+      </nav>
+
+      <div class="pro-banner">
+        <p>Upgrade to PRO to get access all Features!</p>
+        <button>Get Pro Now!</button>
+      </div>
+
+      <div class="user-profile">
+        <img src="./css/3389ec299edb640f65b7cb2d606c9ae4d3bd74e2.png" alt="User" class="avatar">
+        <div class="user-info">
+          <span class="user-name">Evano</span>
+          <span class="user-role">Project Manager</span>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="main-header">
+        <h1>Hello Evano 👋,</h1>
+        <div class="search-bar">
+          <input type="text" placeholder="Search">
+        </div>
+      </header>
+
+      <section class="stats-container">
+        <div class="stat-card">
+          <div class="stat-icon green">👥</div>
+          <div class="stat-details">
+            <p>Total Customers</p>
+            <h3>5,423</h3>
+            <span class="trend up">↑ 16% this month</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon green">👤</div>
+          <div class="stat-details">
+            <p>Members</p>
+            <h3>1,893</h3>
+            <span class="trend down">↓ 1% this month</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon green">💻</div>
+          <div class="stat-details">
+            <p>Active Now</p>
+            <h3>189</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="table-container">
+        <div class="table-header">
+          <div>
+            <h2>All Customers</h2>
+            <span class="subtext">Active Members</span>
+          </div>
+          <div class="table-controls">
+            <input type="text" placeholder="Search">
+            <select><option>Sort by: Newest</option></select>
+          </div>
+        </div>
+
+        <table class="customers-table">
+          <thead>
+            <tr>
+              <th>Customer Name</th>
+              <th>Company</th>
+              <th>Phone Number</th>
+              <th>Email</th>
+              <th>Country</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Jane Cooper</td>
+              <td>Microsoft</td>
+              <td>(225) 555-0118</td>
+              <td>jane@microsoft.com</td>
+              <td>United States</td>
+              <td><span class="status active">Active</span></td>
+            </tr>
+            <tr>
+              <td>Floyd Miles</td>
+              <td>Yahoo</td>
+              <td>(205) 555-0100</td>
+              <td>floyd@yahoo.com</td>
+              <td>Kiribati</td>
+              <td><span class="status inactive">Inactive</span></td>
+            </tr>
+                        <tr>
+              <td>Jane Cooper</td>
+              <td>Microsoft</td>
+              <td>(225) 555-0118</td>
+              <td>jane@microsoft.com</td>
+              <td>United States</td>
+              <td><span class="status inactive">Inactive</span></td>
+            </tr>
+                        <tr>
+              <td>Jane Cooper</td>
+              <td>Microsoft</td>
+              <td>(225) 555-0118</td>
+              <td>jane@microsoft.com</td>
+              <td>United States</td>
+              <td><span class="status active">Active</span></td>
+            </tr>
+                        <tr>
+              <td>Jane Cooper</td>
+              <td>Microsoft</td>
+              <td>(225) 555-0118</td>
+              <td>jane@microsoft.com</td>
+              <td>United States</td>
+              <td><span class="status active">Active</span></td>
+            </tr>
+                        <tr>
+              <td>Jane Cooper</td>
+              <td>Microsoft</td>
+              <td>(225) 555-0118</td>
+              <td>jane@microsoft.com</td>
+              <td>United States</td>
+              <td><span class="status active">Active</span></td>
+            </tr>
+                        <tr>
+              <td>Jane Cooper</td>
+              <td>Microsoft</td>
+              <td>(225) 555-0118</td>
+              <td>jane@microsoft.com</td>
+              <td>United States</td>
+              <td><span class="status active">Active</span></td>
+            </tr>
+                        <tr>
+              <td>Jane Cooper</td>
+              <td>Microsoft</td>
+              <td>(225) 555-0118</td>
+              <td>jane@microsoft.com</td>
+              <td>United States</td>
+              <td><span class="status inactive">Inactive</span></td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <div class="pagination">
+          <span>Showing data 1 to 8 of 256K entries</span>
+          <div class="pages">
+            <button class="active">1</button>
+            <button>2</button>
+            <button>3</button>
+            <span>...</span>
+            <button>40</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
